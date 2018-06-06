@@ -1,0 +1,644 @@
+/*======================================================================
+// General styling.
+======================================================================*/
+.standard-button{
+    display: block;
+    margin: 10px auto 10px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background-color: #5DC0E0;
+    color: white;
+    border: 1px solid transparent;
+    font-family: inherit;
+    cursor: pointer;
+
+    -webkit-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    -moz-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+.standard-button:hover {
+    background-color: rgb(83, 183, 216);
+}
+
+.standard-button-left {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background-color: #5DC0E0;
+    color: white;
+    border: 1px solid transparent;
+    font-family: inherit;
+    cursor: pointer;
+
+    -webkit-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    -moz-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+.standard-button-left:hover {
+    background-color: rgb(83, 183, 216);
+}
+
+.standard-input {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #dbe2e8;
+    font-family: inherit;
+}
+
+.standard-input:focus {
+    border: 1px solid #5DC0E0;
+}
+
+.standard-input-long {
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #dbe2e8;
+    font-family: inherit;
+}
+
+.standard-input-long:focus {
+    border: 1px solid #5DC0E0;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 10px 0 10px 0;
+}
+
+select {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #dbe2e8;
+    color: #484848;
+    font-family: inherit;
+    text-align: center;
+}
+
+select:focus {
+    border: 1px solid #5DC0E0;
+}
+
+.analysis-select {
+    margin: 10px 0 10px 0;
+}
+
+.analysis-form-drivers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bubble-item-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.bubble-item {
+    min-width: 120px;
+    min-height: 40px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid #5DC0E0;
+    border-radius: 50px;
+    cursor: default;
+
+    -webkit-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    -moz-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+.emphasis {
+    border-bottom: 1px solid #5DC0E0;
+}
+
+.edit-icon {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.edit-icon:hover {
+    opacity: 1;
+}
+
+.sub-header {
+    margin: 30px 0 20px 0;
+    color: #326DA1;
+}
+
+body h2 {
+    color: #326DA1;
+}
+
+/*======================================================================
+// Login container styling.
+======================================================================*/
+.login {
+    height: 100vh;
+    background-color: #006593;
+}
+
+.login-cobia-logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20vh 0 30px 0;
+}
+
+.login-header-text {
+    text-align: center;
+    color: #5DC0E0;
+}
+
+.login-form {
+    margin: 30px auto;
+    text-align: center;
+    width: 300px;
+}
+
+.login-email-input, .login-password-input {
+    margin: 0px 0 10px 0;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-family: inherit;
+
+    -webkit-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    -moz-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+.login-email-input:focus, .login-password-input:focus {
+    border: 1px solid #5DC0E0;
+}
+
+.sign-up-link {
+    position: relative;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    color: white;
+    cursor: pointer;
+}
+
+.sign-up-link:hover {
+    border-bottom: 1px solid #5DC0E0;
+}
+/*======================================================================
+// Header styling.
+======================================================================*/
+.header {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to top right, #006593 , #5DC0E0);
+    z-index: 100;
+}
+
+.login-cobia-logo-header {
+    position: fixed;
+    display: block;
+    top: 20px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-navigation {
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.header-navigation:hover {
+    color: #5DC0E0;
+}
+
+/*======================================================================
+// Navigation styling.
+======================================================================*/
+.navigation-panel {
+    position: fixed;
+    top: 80px;
+    width: 200px;
+    height: 100vh;
+    padding: 20px 10px 20px 10px;
+    background-color: #006593;
+    color: white;
+    z-index: 99;
+}
+
+.navigation-panel hr {
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+.navigation-panel-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-panel a {
+    padding: 5px 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.navigation-panel a:hover {
+    text-decoration: none;
+    color: #5DC0E0;
+}
+
+/*======================================================================
+// Footer styling.
+======================================================================*/
+.footer {
+    position: relative;
+    display: block;
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    z-index: 100;
+}
+
+.footer p {
+    display: block;
+    margin-bottom: 0;
+    color: white;
+    line-height: 160px;
+}
+
+/*======================================================================
+// Main container and Title styling.
+======================================================================*/
+.main-container {
+    background-color: #F5F7F9;
+    background-image: url("../img/hex-background.png");
+    background-repeat: repeat;
+}
+
+.main-body {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    min-height: 90vh;
+    margin: 0 auto;
+}
+
+.main-body-analysis {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-body-results {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.title hr {
+    margin-left: 0;
+    width: 100%;
+    border-top: 1px solid #006593;
+}
+
+/*======================================================================
+// Sign Up modal styling.
+======================================================================*/
+.sign-up-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2b2d35;
+    z-index: 110;
+}
+
+.sign-up-close {
+    display: block;
+    position: relative;
+    top: 5%;
+    left: 42%;
+    font-size: 4em;
+    color: white;
+    cursor: pointer;
+}
+
+.sign-up-close:hover {
+    color: #5DC0E0;
+}
+
+.sign-up-form {
+    display: block;
+    position: relative;
+    top: 15%;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+/*======================================================================
+// My Campaign styling.
+======================================================================*/
+.campaign-item {
+    cursor: pointer;
+}
+
+.campaign-item:hover {
+    color: #5DC0E0;
+}
+
+/*======================================================================
+// My Profile styling.
+======================================================================*/
+.profile-flexbox {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.profile-circle-logo {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.profile-circle-logo:hover {
+    opacity: 1;
+}
+
+.profile-community {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid #5DC0E0;
+    background-color: white;
+    cursor: default;
+
+    -webkit-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    -moz-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+.profile-community-likes {
+    display: flex;
+    flex-direction: column;
+    background: url('../img/twitter-logo-opaque.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    height: 100%;
+    width: 50%;
+    cursor: default;
+}
+
+.profile-community-followers {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/facebook-logo-opaque.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    height: 100%;
+    width: 50%;
+    cursor: default;
+}
+
+.profile-reach {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-image: url('../img/profile-art.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid #5DC0E0;
+    background-color: white;
+    cursor: default;
+
+    -webkit-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    -moz-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+.profile-investment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-image: url('../img/profile-art.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid #5DC0E0;
+    background-color: white;
+    cursor: default;
+
+    -webkit-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    -moz-box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+.profile-overview-number {
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.profile-overview-text {
+    font-size: 1em;
+    cursor: default;
+}
+
+/*======================================================================
+// Digital Marketing Results styling.
+======================================================================*/
+.nav-link {
+    cursor: pointer;
+}
+
+.results-keyword {
+    margin-left: 20px;
+}
+
+/*======================================================================
+// Confirmation styling.
+======================================================================*/
+.confirmation {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+/*======================================================================
+// Things that fix stuff.
+======================================================================*/
+.card-text:last-child {
+    margin-bottom: 20px !important;
+}
+
+/*======================================================================
+// Loading style.
+======================================================================*/
+.sk-folding-cube {
+    margin: 20vh auto;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5DC0E0;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+
+/*======================================================================
+// Responsive styling.
+======================================================================*/
+@media only screen and (max-width: 987px) {
+    .main-body-results {
+      width: 95%;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "marketing-analysis-mockup",
+  "version": "0.1.0",
+  "license": "Unlicense",
+  "description": "An early mockup I created using React to clarify user workflow for a marketing analysis web app.",
+  "private": true,
+  "dependencies": {
+    "aphrodite": "^2.2.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "chart.js": "^2.7.2",
+    "classnames": "^2.2.5",
+    "react": "^16.4.0",
+    "react-animations": "^1.0.0",
+    "react-chartkick": "^0.2.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
